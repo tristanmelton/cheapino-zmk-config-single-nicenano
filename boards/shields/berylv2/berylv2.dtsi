@@ -13,7 +13,7 @@
 
 / {
     chosen {
-        zmk,kscan = &cheapino_scan;
+        zmk,kscan = <&kscan0>;
         //zmk,physical-layout = &cheapino_layout;
         transform = <&default_transform>;
     };
@@ -40,7 +40,7 @@
     };
 
 
-    cheapino_scan: kscan0 {
+    kscan0: kscan0 {
 			compatible = "zmk,kscan-gpio-matrix";
 			diode-direction = "col2row";
 			wakeup-source;
