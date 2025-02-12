@@ -1,0 +1,7 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+#
+
+config ZMK_KEYBOARD_NAME
+    default "Beryl v2"
+    

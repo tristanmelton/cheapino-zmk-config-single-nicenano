@@ -1,0 +1,9 @@
+file_format: "1"
+id: berylv2
+name: Beryl v2
+type: shield
+url: https://github.com/tristanmelton/cheapino-zmk-config-single-nicenano
+requires: [nice_nano_v2]
+features:
+  - keys
+  - studio
