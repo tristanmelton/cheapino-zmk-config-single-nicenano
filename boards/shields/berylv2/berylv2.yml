@@ -6,4 +6,3 @@ url: https://github.com/tristanmelton/cheapino-zmk-config-single-nicenano
 requires: [nice_nano_v2]
 features:
   - keys
-  - studio
