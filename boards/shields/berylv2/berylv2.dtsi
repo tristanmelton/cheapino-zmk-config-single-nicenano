@@ -5,16 +5,16 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-//#include "cheapinov2-layout.dtsi"
+#include "berylv2-layout.dtsi"
 
-//&cheapino_layout {
- //   transform = <&default_transform>;
-//};
+&beryl_layout {
+   transform = <&default_transform>;
+};
 
 / {
     chosen {
         zmk,kscan = <&kscan0>;
-        //zmk,physical-layout = &cheapino_layout;
+        zmk,physical-layout = &beryl_layout;
         transform = <&default_transform>;
     };
 

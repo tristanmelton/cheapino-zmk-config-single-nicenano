@@ -1,9 +1,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    cheapino_layout: cheapino_layout {
+    beryl_layout: beryl_layout {
         compatible = "zmk,physical-layout";
-        display-name = "Cheapino";
+        display-name = "Beryl";
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   38       0     0     0>
